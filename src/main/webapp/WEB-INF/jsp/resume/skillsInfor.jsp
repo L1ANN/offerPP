@@ -71,7 +71,7 @@
         <form class="col-md-9 main-block" action="${pageContext.request.contextPath }/resume/setSkills.action"
               method="post">
             <div class="header-bar">
-                技能与职业期望
+                职业期望与技能
             </div>
             <div class="profile-panel">
                 <div class="form-group">

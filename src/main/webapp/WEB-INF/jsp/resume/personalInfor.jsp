@@ -79,10 +79,10 @@
             <div class="profile-panel">
 
                 <div class="user_img">
-                    <c:if test="${personalInformation.userIcon==null}">
+                    <c:if test="${personalInformation.userIcon==null || personalInformation.userIcon==''}">
                         <img src="<c:url value="/img/talent_blank.jpg-200w"/>" class="fl" width=100 height=10/>
                     </c:if>
-                    <c:if test="${personalInformation.userIcon!=null}">
+                    <c:if test="${personalInformation.userIcon!=null && personalInformation.userIcon!=''}">
                         <img src="/pic/${personalInformation.userIcon}" class="fl" width=100 height=10/>
                     </c:if>
 

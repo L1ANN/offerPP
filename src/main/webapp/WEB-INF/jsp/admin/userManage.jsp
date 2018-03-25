@@ -121,7 +121,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 left_block">
-                <img src="<%= basePath %>img/footer_logo.png"/>
+                <img src="<c:url value="/img/footer.png"/>"/>
                 <p>华中科技大学软件学院2017届学生实训作品, 由软酷网老师指导完成</p>
                 <p>欢迎大家使用!</p>
             </div>

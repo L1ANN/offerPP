@@ -181,8 +181,8 @@
                         else if (data.result == 'passwordError') {
                             $('#passwordError').show();
                         }
-                        else if(data.result=='passError'){
-                            alert("公司尚未通过管理员审核");
+                        else if(data.result=='NoPass'){
+                            alert("公司审核未通过，请稍后登录");
                         }
                         else if (data.result == 'ok') {
 

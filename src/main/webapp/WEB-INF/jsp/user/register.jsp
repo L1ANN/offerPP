@@ -282,7 +282,7 @@
                         }
                         //注册成功
                         else if (data.result == 'registerOK') {
-                            alert("注册成功");
+                            alert("注册成功,管理员将在24小时内审核您的注册信息");
                             window.location.href = "${pageContext.request.contextPath}/company/signCompany.action";
                         }
                     }).error(function () {

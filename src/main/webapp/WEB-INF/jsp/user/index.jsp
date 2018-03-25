@@ -190,11 +190,11 @@
                 <div class="right_first">
                     <div class="row">
                         <div class="col-md-4 col-lg-4 col-md-offset-3 col-md-offset-3">
-                            <c:if test="${user.userIcon==null}">
+                            <c:if test="${user.userIcon==null || user.userIcon==''}">
                                 <img src="<c:url value="/img/talent_blank.jpg-200w"/>" class="head img-circle" id="head">
                             </c:if>
 
-                            <c:if test="${user.userIcon!=null}">
+                            <c:if test="${user.userIcon!=null && user.userIcon!=''}">
                                 <img src="/pic/${user.userIcon}" class="head img-circle" id="head">
                             </c:if>
                         </div>
